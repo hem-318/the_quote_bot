@@ -2,7 +2,8 @@
 <b>The quote bot</b>
 </h1>
 
-<b>A simple twitter bot that scrapes quotes from net and tweet them at regular intervals</b>   
+<b>A simple twitter bot that scrapes quotes from net and tweet them at regular intervals</b> 
+<b>[Here is a working example @the_quote_bot(https://twitter.com/the_quote_bot)</b>
 
 
 ### How to use -
