@@ -12,7 +12,7 @@ api = tweepy.API(auth)
 
 #Where the magic happens
 n=1
-sleep_time = input("Enter the duration between 2 tweets - ") # To set a sleep time
+sleep_time = int(input("Enter the duration between 2 tweets - ")) # To set a sleep time
 
 while n<1000000000000000000000000000000:
 
