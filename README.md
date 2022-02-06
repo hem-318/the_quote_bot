@@ -6,7 +6,7 @@
 
 
 ### How to use -
-- <b>Getting the twitter api </b> - `[Sign up for getting twitter api here](https://developer.twitter.com/en/portal/dashboard.)`
+- <b>Getting the twitter api </b> - [Sign up for getting twitter api here](https://developer.twitter.com/en/portal/dashboard.)
 - <b>Saving the api keys</b> - `Add your consumer and accesss keys which you got to "credentials.py"`
 - <b>Thats it!</b> - `Now go ahead and run "the_quote_bot.py" Input the desired sleep time and check your twitter profile`
 
