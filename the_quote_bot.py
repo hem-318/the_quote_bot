@@ -13,6 +13,7 @@ api = tweepy.API(auth)
 #Where the magic happens
 n=1
 sleep_time = int(input("Enter the duration between 2 tweets (in seconds) - ")) # To set a sleep time
+hashtags = ("#hashtag1" "hashtag2") #use hashtags for enguagement 
 
 while n<1000000000000000000000000000000:
 
@@ -23,7 +24,7 @@ while n<1000000000000000000000000000000:
         a = quote['content'] + '    -' + quote['author']
         print('Number of tweets so far - ', n)
         print ('Quote - ' , a)
-        tweet = api.update_status(a) #tweet the quote
+        tweet = api.update_status(a + hashtags) #tweet the quote
         n = n+1
         sleep(sleep_time)
 
